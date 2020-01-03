@@ -11,9 +11,6 @@
   <label for="confirmeSenha" class="sr-only">Confirmar Senha</label>
   <input type="password" id="confirmeSenha" name="confirmeSenha" class="form-control" placeholder="Confirmar Senha" required value="<?php echo set_value('confirmeSenha'); ?>">
   <div class="checkbox mb-3">
-    <label>
-      <input type="checkbox" value="remember"> Lembrar-me
-    </label>
   </div>
   <button name="register" class="btn btn-primary btn-block" type="submit">Cadastrar</button>
 </form>

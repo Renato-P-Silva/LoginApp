@@ -26,10 +26,12 @@
   <label for="senha" class="sr-only">Senha</label>
   <!-- <?php echo form_error( 'senha' ); ?> -->
   <input type="password" id="senha" name="senha" class="form-control" placeholder="Senha" value="<?php echo set_value('senha'); ?>" >
-  <div class="checkbox mb-3">
+
+  <button name="login" class="btn btn-primary btn-block" type="submit">Entrar</button>
+  <div style="margin-top: 35px;">
     <label>
-      <input type="checkbox" value="remember-me"> Lembrar-me
+      <!-- <input type="checkbox" value="remember-me"> Lembrar-me -->
+      <a href="#">Esqueci minha senha</a>
     </label>
   </div>
-  <button name="login" class="btn btn-primary btn-block" type="submit">Entrar</button>
 </form>
